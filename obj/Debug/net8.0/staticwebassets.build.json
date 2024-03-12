@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "2GKSmHxtYzccFrD2C7bNTBMWS5TYsO6gjLvCG3HM2FY=",
+  "Source": "PousadaAPI",
+  "BasePath": "_content/PousadaAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

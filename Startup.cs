@@ -25,7 +25,7 @@ namespace PousadaAPI
 
         public IConfiguration Configuration { get; }
 
-        // Este método é chamado em tempo de execução. Use este método para adicionar serviços ao contêiner.
+        // Este método é chamado em tempo de execução. Método usado para adicionar serviços ao contêiner.
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<PousadaContext>(opt => opt.UseInMemoryDatabase("Pousada"));
@@ -44,7 +44,7 @@ namespace PousadaAPI
 
         }
 
-        // Este método é chamado em tempo de execução. Use este método para configurar o pipeline HTTP.
+        // Este método é chamado em tempo de execução. Método usado para configurar o pipeline HTTP.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
